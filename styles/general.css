@@ -75,3 +75,6 @@ select {
 }
 
 /* STYLING */
+html {
+  font-family: 'Montserrat', sans-serif;
+}
