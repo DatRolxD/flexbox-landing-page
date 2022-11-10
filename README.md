@@ -10,6 +10,7 @@ I'm going to use flexbox in order to achieve the desired design
 ### Contact
 
 nemecroland3@gmail.com
+
 00420 792 241 024 (Czechia)
 
 ---
