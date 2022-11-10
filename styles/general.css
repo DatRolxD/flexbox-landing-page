@@ -1,3 +1,19 @@
+/* GLOBAL VARIABLES */
+:root {
+  --clr-dark: #1f2937;
+  --clr-blue: #3882f6;
+  --clr-primary-white: #f9faf8; 
+  --clr-gray: #e5e7eb;
+
+  --fs-extra: 48px; 
+  --fs-big: 36px;
+  --fs-middle: 24px;
+  --fs-regular: 18px;
+
+  --fw-bold: 700;
+  --fw-light: 100;
+}
+
 /* CSS RESET */
 /* Box sizing rules */
 *,
@@ -77,4 +93,5 @@ select {
 /* STYLING */
 html {
   font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
