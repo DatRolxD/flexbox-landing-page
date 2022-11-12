@@ -267,9 +267,21 @@ html {
   background-color: transparent;
   font-weight: var(--fw-bold);
 }
+
 #cta-container-btn:hover {
   color: var(--clr-blue);
   background-color: var(--clr-primary-white);
   cursor: pointer;
   transition: 250ms;
+}
+
+#footer {
+  padding: 2.5rem 0;
+  background-color: var(--clr-dark);
+  color: var(--clr-gray);
+}
+
+#footer address {
+  text-align: center;
+  font-style: normal;
 }
