@@ -16,3 +16,11 @@ nemecroland3@gmail.com
 ---
 
 ### Reflections
+
+I've done a fully functional landing page by only using flexbox.
+
+It's design is very simple and minimalistic, however clean and nice.
+
+I'm happy with the overal result.
+
+I still need to learn the responsibility properly and design for mobile first.
