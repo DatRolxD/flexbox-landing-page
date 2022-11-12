@@ -13,7 +13,7 @@
   --fs-small: 12px;
 
   --fw-bold: 700;
-  --fw-light: 100g;
+  --fw-light: 100;
 }
 
 /* CSS RESET */
@@ -219,4 +219,21 @@ html {
   height: 120px;
   border: 3px solid var(--clr-blue);
   border-radius: 15%;
+}
+
+#quote-section {
+  background-color: var(--clr-gray);
+  padding: 15% 10% 15% 10%;
+  text-align: center;
+}
+
+#blockquote {
+  font-size: var(--fs-big);
+  font-weight: var(--fw-light);
+}
+
+#figcaption {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-regular);
+  float: right;
 }
