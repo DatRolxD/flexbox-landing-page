@@ -9,7 +9,7 @@
   --fs-extra: 48px; 
   --fs-big: 36px;
   --fs-middle: 24px;
-  --fs-regular: 18px;
+  --fs-regular: 16px;
   --fs-small: 12px;
 
   --fw-bold: 700;
@@ -141,7 +141,7 @@ html {
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #hero-text-container {
@@ -156,12 +156,12 @@ html {
 .p-regular-gray {
   font-size: var(--fs-regular);
   color: var(--clr-gray);
-  padding-block: 1rem;
 }
 
 #button-hero-cta {
   border: none;
   border-radius: 6px;
+  margin-top: 1rem;
   padding: 0.5rem 1rem;
   color: var(--clr-primary-white);
   background-color: var(--clr-blue);
@@ -185,7 +185,7 @@ html {
 
 #information-section {
   background-color: var(--clr-primary-white);
-  padding: 2rem 10% 2rem 10%;
+  padding: 5rem 10% 5rem 10%;
 
   display: flex;
   flex-direction: column;
@@ -215,7 +215,7 @@ html {
 }
 
 .blue-box {
-  width: 80%;
+  width: 120px;
   height: 120px;
   border: 3px solid var(--clr-blue);
   border-radius: 15%;
@@ -223,7 +223,7 @@ html {
 
 #quote-section {
   background-color: var(--clr-gray);
-  padding: 15% 10% 15% 10%;
+  padding: 10%;
   text-align: center;
 }
 
@@ -236,4 +236,40 @@ html {
   font-weight: var(--fw-bold);
   font-size: var(--fs-regular);
   float: right;
+}
+
+#cta-section {
+  padding: 5%;
+  background-color: var(--clr-primary-white);
+}
+
+#cta-container {
+  width: 65%;
+  min-width: fit-content;
+  margin: 0 auto;
+  padding: 2.5rem 2.5rem;
+  border-radius: 2rem;
+  background-color: var(--clr-blue);
+  color: var(--clr-primary-white);
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+#cta-container-btn {
+  border: 1px solid var(--clr-primary-white);
+  border-radius: 6px;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  color: var(--clr-primary-white);
+  background-color: transparent;
+  font-weight: var(--fw-bold);
+}
+#cta-container-btn:hover {
+  color: var(--clr-blue);
+  background-color: var(--clr-primary-white);
+  cursor: pointer;
+  transition: 250ms;
 }
