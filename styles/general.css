@@ -10,6 +10,7 @@
   --fs-big: 36px;
   --fs-middle: 24px;
   --fs-regular: 18px;
+  --fs-small: 12px;
 
   --fw-bold: 700;
   --fw-light: 100g;
@@ -179,6 +180,43 @@ html {
 }
 
 #hero-image {
-
   width: 100%;
+}
+
+#information-section {
+  background-color: var(--clr-primary-white);
+  padding: 2rem 10% 2rem 10%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#information-flex-container {
+  padding-block: 1rem;
+
+  display: flex;
+  gap: 1rem;
+}
+
+.information-content {
+  font-size: var(--fs-small);
+  color: var(--clr-dark);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.information-content p {
+  text-align: center;
+}
+
+.blue-box {
+  width: 80%;
+  height: 120px;
+  border: 3px solid var(--clr-blue);
+  border-radius: 15%;
 }
