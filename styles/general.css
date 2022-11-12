@@ -1,9 +1,10 @@
 /* GLOBAL VARIABLES */
 :root {
-  --clr-dark: #1f2937;
-  --clr-blue: #3882f6;
-  --clr-primary-white: #f9faf8; 
-  --clr-gray: #e5e7eb;
+  --clr-dark: rgb(31, 41, 55);
+  --clr-blue: rgb(56, 130, 246);
+  --clr-primary-white: rgb(249, 250, 248); 
+  --clr-gray: rgb(229, 231, 235);
+  --clr-gray-less: rgba(229, 231, 235, 0.8);
 
   --fs-extra: 48px; 
   --fs-big: 36px;
@@ -11,7 +12,7 @@
   --fs-regular: 18px;
 
   --fw-bold: 700;
-  --fw-light: 100;
+  --fw-light: 100g;
 }
 
 /* CSS RESET */
@@ -94,4 +95,40 @@ select {
 html {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+}
+
+#header {
+  background-color: var(--clr-dark);
+
+  padding: 1rem 4rem 1rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-logo {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-big);
+  color: var(--clr-primary-white);
+}
+
+#nav-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--clr-gray-less);
+}
+
+.nav-link:hover {
+  color: var(--clr-gray);
+  transition: color 250ms ease-in-out;
 }
