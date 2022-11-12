@@ -132,3 +132,53 @@ html {
   color: var(--clr-gray);
   transition: color 250ms ease-in-out;
 }
+
+#hero-section {
+  padding: 2.5rem;
+
+  background-color: var(--clr-dark);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#hero-text-container {
+  max-width: 400px;
+}
+
+#hero-heading {
+  font-size: var(--fs-extra);
+  color: var(--clr-primary-white);
+}
+
+.p-regular-gray {
+  font-size: var(--fs-regular);
+  color: var(--clr-gray);
+  padding-block: 1rem;
+}
+
+#button-hero-cta {
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  color: var(--clr-primary-white);
+  background-color: var(--clr-blue);
+  font-weight: var(--fw-bold);
+}
+
+#button-hero-cta:hover {
+  color: var(--clr-blue);
+  background-color: var(--clr-primary-white);
+  cursor: pointer;
+  transition: 250ms;
+}
+
+#hero-image-container{
+  width: 30%;
+}
+
+#hero-image {
+
+  width: 100%;
+}
